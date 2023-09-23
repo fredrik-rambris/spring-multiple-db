@@ -1,0 +1,19 @@
+datasource:
+  customer:
+    jdbc-url: jdbc:postgresql://127.0.0.1:15432/customers
+    username: myuser
+    password: secret
+    pool-name: customers-pool
+    maximum-pool-size: 3
+  product:
+    jdbc-url: jdbc:postgresql://127.0.0.1:15433/products
+    username: myuser
+    password: secret
+    pool-name: products-pool
+    maximum-pool-size: 4
+  order:
+    jdbc-url: jdbc:postgresql://127.0.0.1:15434/orders
+    username: myuser
+    password: secret
+    pool-name: orders-pool
+    maximum-pool-size: 5
